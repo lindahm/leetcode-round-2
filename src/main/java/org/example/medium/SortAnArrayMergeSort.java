@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * 912
  */
-public class SortAnArray {
+public class SortAnArrayMergeSort {
 
     public int[] sortArray(int[] nums) {
         mergeSort(nums, 0, nums.length - 1);
